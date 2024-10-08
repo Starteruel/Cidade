@@ -1,19 +1,23 @@
 {
-  "posts": [
+  "Cidades": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "UFs": 1,
+      "Código": "Computador i7",
+      "Quant. Municípios": "1200",
+      "Localização": "Eletrônicos"
+
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Computador i3",
+      "price": 980,
+      "category": "Eletrônicos"
+    },
+    {
+      "id": 3,
+      "name": "Computador i9",
+      "price": 4300,
+      "category": "Eletrônicos"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
