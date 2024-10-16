@@ -1,23 +1,39 @@
 {
   "Cidades": [
     {
-      "UFs": 1,
-      "Código": "Computador i7",
-      "Quant. Municípios": "1200",
-      "Localização": "Eletrônicos"
-
+      "UFs": "Acre",
+      "Código": "12",
+      "Quant. Municípios": "22",
+      "Localização": "Brasil",
+      "Capital": "Rio Branco"
     },
     {
-      "id": 2,
-      "name": "Computador i3",
-      "price": 980,
-      "category": "Eletrônicos"
+      "UFs": "Bahia",
+      "Código": "29",
+      "Quant. Municípios": "417",
+      "Localização": "Brasil",
+      "Capital": "Salvador"
     },
     {
-      "id": 3,
-      "name": "Computador i9",
-      "price": 4300,
-      "category": "Eletrônicos"
+      "UFs": "Amazonas",
+      "Código": "13",
+      "Quant. Municípios": "62",
+      "Localização": "Brasil",
+      "Capital": "Manaus"
+    },
+    {
+      "UFs": "Ceará",
+      "Código": "23",
+      "Quant. Municípios": "184",
+      "Localização": "Brasil",
+      "Capital": "Fortaleza"
+    },
+    {
+      "UFs": "São Paulo",
+      "Código": "35",
+      "Quant. Municípios": "645",
+      "Localização": "Brasil",
+      "Capital": "São Paulo"
     }
   ]
 }

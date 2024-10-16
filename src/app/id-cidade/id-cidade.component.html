@@ -15,3 +15,16 @@
         </tr>
       </thead>
       <tbody>
+        <tr *ngFor="let Cidade of Cidade">
+          <th scope="row">{{Cidade.UFs}}</th>
+          <td><a [routerLink]="['/cidade', cidade.UFs]">{{cidade.Código}}</a> </td>
+          <td>{{cidade.Quant}}</td>
+          <td>{{cidade.Local}}</td>
+          <td>{{cidade.Capital}}</td>
+          <td><button class ="btn btn-danger" (click)="delete(cidade)" >Remover</button> </td>
+          </tr>
+
+      </tbody>
+    </table>
+
+</div>
